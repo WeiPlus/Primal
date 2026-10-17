@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "drink": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potion"],
+          "components": {
+            "minecraft:potion_contents": {
+              "potion": "minecraft:water"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "primal:water/drink"
+  }
+}
